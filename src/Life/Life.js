@@ -23,8 +23,6 @@ class Life extends Component {
   }
   
   getValue(e, data) {
-    console.log('aw');
-    console.log(data);
     this.setState({
       birthday: new Date(data)
     });
@@ -50,7 +48,6 @@ class Life extends Component {
   }
 
   showOpenDp() {
-    console.log(this)
     this.refs.dp.openDialog();
   }
 
@@ -63,7 +60,6 @@ class Life extends Component {
   }
 
   render() {
-    console.log(this.state);
     return (
       <div className="date-container">
         <DatePicker ref="dp"
