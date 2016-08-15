@@ -1,0 +1,17 @@
+.date-hidden {
+  display: none;
+}
+
+.date-fab {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  bottom: 7.5%;
+  left: 0;
+  justify-content: center;
+}
+
+.date-spent {
+  font-size: 3em;
+  text-align: center;
+}
