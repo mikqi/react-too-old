@@ -4,8 +4,9 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  /*background-color: #ef5350;*/
   background-color: #382e5b;
   flex-direction: column;
+  color: #fff;
+  /*background-color: #ef5350;*/
   /*#ff4081*/
 }
